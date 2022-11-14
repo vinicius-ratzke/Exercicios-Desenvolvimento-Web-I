@@ -7,7 +7,7 @@ Foi-se utilizado as seguintes linguagens para os exercicios:
 - CSS
 - JavaScript
 - PHP
-
+- MySQL
 
 
 
