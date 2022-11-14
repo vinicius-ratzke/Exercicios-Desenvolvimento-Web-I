@@ -1,0 +1,277 @@
+*{
+    font-family: Roboto, Arial;
+    border: 1px;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.youtube-logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60px;
+
+}
+
+.search-bar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+}
+
+.search-input{
+    width: 100%;
+    font-size: inherit;
+    padding: .4rem;
+    border: 1px solid #777;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #777;
+    background-color: #f8f8f8;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: #f0f0f0;
+}
+
+.menu-icons{
+    display: grid;
+    grid-template-columns:repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu-channel-icon{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #aaa;
+}
+
+.esq{
+    width: 70%;
+    float: left;
+}
+.dir{
+    width: 30%;
+    float: right;
+}
+
+.video-section{
+    display: inline-block;
+}
+
+.video-section:first-child{
+    border-top: none;
+}
+
+.video-container{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.thumbnail{
+    margin-top: 15px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-details{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.video-channel-name{
+    margin-top: 25px;
+    position: absolute;
+    text-decoration: none;
+    transition: color 150ms;
+}
+
+.video-title{
+    margin-top: 5px;
+    position: absolute;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+
+.video-metadata{
+    margin-top: 52px;
+}
+
+.video-channel-name:hover{
+    color: #111;
+}
+
+.video-channel-name, .video-metadata{
+    color: #555;
+}
+
+.video-section-title-close{
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.descrição-video{
+    margin-top: -25px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.descrição-video span{
+    margin-left: 0px;
+}
+.descrição-video button{
+    position: relative;
+    left: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.hr1{
+    border: 0;
+    border-top: 1px solid black;
+    width: 100%;
+    margin-left: -5px;
+}
+
+.xxmarceloo-name{
+    text-decoration: none;
+    transition: color 150ms;
+    margin-left: 43px;
+    margin-top: 5px;
+    position:absolute;
+    color: black;
+}
+
+.xxmarceloo-icon{
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+
+}
+
+#xxmarceloo-meta{
+    margin-left: 100px;
+    margin-top: -40px;
+}
+
+
+.red-button {
+    position: absolute;
+    margin-left: -180px;
+    margin-right: 30px;
+    top: 970px;
+    font-size:15px;
+    font-family:Arial;
+    width:149px;
+    height:55px;
+    border-width:1px;
+    color:rgba(255, 255, 255, 1);
+    border-color:#ffffff;
+    font-weight:bold;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    box-shadow:inset 0px 39px 0px -24px rgba(250, 20, 5, 1);
+    text-shadow:inset 0px 1px 0px rgba(250, 20, 2, 1);
+    background:rgba(255, 13, 0, 1);
+    cursor: pointer;
+  }
+
+.bio{
+    position: absolute;
+    top: 990px;
+    left: 80px;
+}
+
+.hr2{
+    border: 0;
+    border-top: 1px solid black;
+    width: 100%;
+    margin-top: 110px;
+    margin-left: -5px;
+}
+
+textarea {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: -140px;
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+.coment-pic{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: .75rem;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 100px;  
+}
+
+.quanti{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.coment-button{
+    position: absolute;
+    left: 915px;
+    top: 1230px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: #0000004f;
+    cursor: pointer;
+}
+
+.biobtn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    size: 15px;
+    cursor: pointer;
+}
